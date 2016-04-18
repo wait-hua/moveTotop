@@ -4,9 +4,8 @@ $(document).ready(function(){
         var top = $(document).scrollTop();       //获取滚动条到顶部的垂直高度
         var height = $(window).height();     //获得可视浏览器的高度
         if(top > 1/10*height){                           //到一定高度显示
-        
             $("#moveTotop").fadeIn(300);
-        }else {                            //小于100消失
+        }else {                            
             $("#moveTotop").fadeOut(300);
         }
     });
